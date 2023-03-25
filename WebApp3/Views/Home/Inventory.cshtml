@@ -17,14 +17,14 @@
 
         <tr bgcolor="@ViewData["Color1"]" >
             <td>Табуретка</td>
-            <td>10</td>
+            <td>@Model.Onestock</td>
             <td>@Model.One</td>
             <td><input type="number" name="one" /></td>
         </tr>
-        <tr bgcolor="@ViewData["Color2"]"><td>Стол</td><td>10</td><td>@Model.Two</td><td><input type="number" name="two" /></td></tr>
-        <tr bgcolor="@ViewData["Color3"]"><td>Стул</td><td>10</td><td>@Model.Three</td><td><input type="number" name="three" /></td></tr>
-        <tr bgcolor="@ViewData["Color4"]"><td>Кровать</td><td>10</td><td>@Model.Four</td><td><input type="number" name="four" /></td></tr>
-        <tr bgcolor="@ViewData["Color5"]"><td>Шкаф</td><td>10</td><td>@Model.Five</td><td><input type="number" name="five" /></td></tr>
+        <tr bgcolor="@ViewData["Color2"]"><td>Стол</td><td>@Model.Twostock</td><td>@Model.Two</td><td><input type="number" name="two" /></td></tr>
+        <tr bgcolor="@ViewData["Color3"]"><td>Стул</td><td>@Model.Threestock</td><td>@Model.Three</td><td><input type="number" name="three" /></td></tr>
+        <tr bgcolor="@ViewData["Color4"]"><td>Кровать</td><td>@Model.Fourstock</td><td>@Model.Four</td><td><input type="number" name="four" /></td></tr>
+        <tr bgcolor="@ViewData["Color5"]"><td>Шкаф</td><td>@Model.Fivestock</td><td>@Model.Five</td><td><input type="number" name="five" /></td></tr>
  
 </table>
 <p>

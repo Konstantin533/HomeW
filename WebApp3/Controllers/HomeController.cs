@@ -48,51 +48,51 @@ namespace WebApp3.Controllers
         {
             
           
-            if (DataBase.One > invent.One )
+            if (invent.Onestock > invent.One )
             {
                 ViewData["Color1"] = "#FF0000";
                 
             }
-           if(DataBase.One == invent.One)
+           if(invent.Onestock == invent.One)
             {
                 ViewData["Color1"] = "#008000";
             }
-             if (DataBase.Two > invent.Two)
+             if (invent.Twostock > invent.Two)
              {
                 ViewData["Color2"] = "#FF0000";
                 
              }
-            if (DataBase.Two == invent.Two)
+            if (invent.Twostock == invent.Two)
             {
                 ViewData["Color2"] = "#008000";
 
             }
-            if (DataBase.Three > invent.Three)
+            if (invent.Threestock > invent.Three)
            {
                 ViewData["Color3"] = "#FF0000";
                
            }
-            if (DataBase.Three == invent.Three)
+            if (invent.Threestock == invent.Three)
             {
                 ViewData["Color3"] = "#008000";
 
             }
-            if (DataBase.Four > invent.Four)
+            if (invent.Fourstock > invent.Four)
             {
                 ViewData["Color4"] = "#FF0000";
                 
             }
-            if (DataBase.Four == invent.Four)
+            if (invent.Fourstock == invent.Four)
             {
                 ViewData["Color4"] = "#008000";
 
             }
-            if (DataBase.Five > invent.Five)
+            if (invent.Fivestock > invent.Five)
             {
                 ViewData["Color5"] = "#FF0000";
 
             }
-            if (DataBase.Five == invent.Five)
+            if (invent.Fivestock == invent.Five)
             {
                 ViewData["Color5"] = "#008000";
 
